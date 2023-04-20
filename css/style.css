@@ -74,18 +74,17 @@
 }
 
 #wrapper {
-	width: 850px;
-	height: 600px;
-	background-color: #87CEFA;
-	margin:0 auto;
-	overflow: hidden;
+  width: 70%;
+  margin: 0 auto 5% auto;
+  padding: 1% 1% 1% 1%;
+  background-color: #e6fff3;
 }
 
 #canvas {
-  width: 700px;
-	height: 500px;
-	background-color: #87CEFA;
-	margin: 30px auto;
+  width: 70%;
+  margin: 0 auto 5% auto;
+  padding: 1% 1% 1% 1%;
+  background-color: #e6fff3;
 
 .center-text {
   text-align: center;
