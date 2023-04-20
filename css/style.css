@@ -69,6 +69,24 @@
   background-color: #e6fff3;
 }
 
+.map-page-background {
+  background-color: #99ffce;
+}
+
+#wrapper {
+	width: 850px;
+	height: 600px;
+	background-color: #87CEFA;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+#canvas {
+  width: 700px;
+	height: 500px;
+	background-color: #87CEFA;
+	margin: 30px auto;
+
 .center-text {
   text-align: center;
 }
