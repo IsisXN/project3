@@ -21,8 +21,6 @@ function init() {
 	icon: 'images/flag.png'
   });
   
- var contentString = '<h1>Mexico Guadalajara.</h1>;
-  
   var infowindow = new google.maps.InfoWindow({
     content: contentString,
 	maxWidth: 250,
