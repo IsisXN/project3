@@ -1,7 +1,7 @@
 function init() {
   //alert('it works');
   var el = document.getElementById('canvas');
-  var myLocation = new google.maps.LatLng(52.3567415,4.8080992);
+  var myLocation = new google.maps.LatLng(20.6597,103.3496);
   var mapOptions = {
     center: myLocation,
 	zoom: 12,
@@ -15,13 +15,13 @@ function init() {
   var myMap = new google.maps.Map(el, mapOptions);
   
   var marker = new google.maps.Marker({
-    position: new google.maps.LatLng(52.354454,4.7535836),
+    position: new google.maps.LatLng(20.6597,103.3496),
     map: myMap,
     animation: google.maps.Animation.BOUNCE,
 	icon: 'images/flag.png'
   });
   
- var contentString = '<h1>Muiderslot</h1><p>Muiden Castle is currently a national museum. The inside of the castle, its rooms and kitchens, was restored to look like they did in the 17th century and several of the rooms now house a collection of arms and armour.</p>';
+ var contentString = '<h1>Mexico Guadalajara.</h1>;
   
   var infowindow = new google.maps.InfoWindow({
     content: contentString,
