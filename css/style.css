@@ -1,3 +1,21 @@
+
+.center-text {
+  text-align: center;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.border-bottom {
+  border-bottom: 1px solid black;
+  font-family: Blippo, fantasy;
+}
+.clear {
+  clear: both;
+}
+/*navagation for all pages*/
 #main-navbar {
   overflow: hidden;
   background-color: #b3ffb3;
@@ -35,7 +53,7 @@
 #onpage {
   text-decoration: underline;
 }
-
+/*page 1*/
 .resume-page-background {
   background-color: #99ffce;
 }
@@ -46,7 +64,7 @@
   padding: 1% 1% 1% 1%;
   background-color: #e6fff3;
 }
-
+/*page 2*/
 .hobbies-page-background {
   background-color: #99ffce;
 }
@@ -57,7 +75,7 @@
   padding: 1% 1% 1% 1%;
   background-color: #e6fff3;
 }
-
+/*page 3*/
 .hotchip-page-background {
   background-color: #99ffce;
 }
@@ -68,12 +86,7 @@
   padding: 1% 1% 1% 1%;
   background-color: #e6fff3;
 }
-
-.map-background {
-  background-color: #99ffce;
-  margin: 10px;
-}
-
+/*page 4*/
 #wrapper {
   width: 850px;
   height: 600px;
@@ -89,19 +102,6 @@
   background-color: #e6fff3;
 }
 
-.center-text {
-  text-align: center;
-}
-.float-left {
-  float: left;
-}
-.float-right {
-  float: right;
-}
-.border-bottom {
-  border-bottom: 1px solid black;
-  font-family: Blippo, fantasy;
-}
-.clear {
-  clear: both;
-}
+.map-background {
+  background-color: #99ffce;
+  margin: 10px;
