@@ -4,29 +4,34 @@ function init() {
   var myLocation = new google.maps.LatLng(20.6597,103.3496);
   var mapOptions = {
     center: myLocation,
-	zoom: 12,
+	zoom: 16,
 	mapTypeId: google.maps.MapTypeId.SATELLITE,
 	mapTypeControlOptions: {
       position: google.maps.ControlPosition.BOTTOM_CENTER
     }
-  }
   };
   
   var myMap = new google.maps.Map(el, mapOptions);
   
   var marker = new google.maps.Marker({
-    position: new google.maps.LatLng(20.6597,103.3496),
+    position: myLocation,
     map: myMap,
     animation: google.maps.Animation.BOUNCE,
-	icon: 'images/flag.png'
+	icon: {
+		url: 'images/flag.png',
+		scaledSize: new google.maps.Size(60,60)
   });
   
   var infowindow = new google.maps.InfoWindow({
     content: contentString,
-	maxWidth: 250,
   });
-google.maps.event.addListener(marker, 'mouseover', function() {
+  google.maps.event.addListener(marker, 'mouseover', function() {
     infowindow.open(myMap, marker);
   });
-  
+}
+
+  marker.addListener('click', function() {
+	  infowindow.open(myMap,marker);
+  });
+}
 google.maps.event.addDomListener(window, 'load', init);
