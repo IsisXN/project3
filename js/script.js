@@ -16,12 +16,15 @@ function init() {
   var marker = new google.maps.Marker({
     position: myLocation,
     map: myMap,
-    animation: google.maps.Animation.BOUNCE,
+    animation: google.maps.Animation.DROP,
 	icon: {
 		url: 'images/icon.png',
 		scaledSize: new google.maps.Size(60,60)
+    }
   });
   
+  
+  var contentString = '<h2>Guadalajara</h2><p>This is one of the states in Mexico</p>'
   var infowindow = new google.maps.InfoWindow({
     content: contentString,
   });
