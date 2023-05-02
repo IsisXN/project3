@@ -18,7 +18,7 @@ function init() {
     map: myMap,
     animation: google.maps.Animation.BOUNCE,
 	icon: {
-		url: 'images/flag.png',
+		url: 'images/icon.png',
 		scaledSize: new google.maps.Size(60,60)
   });
   
