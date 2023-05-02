@@ -71,26 +71,21 @@
 
 .map-page-background {
   background-color: #99ffce;
-}
-
-#map-template{
-  width: 70%;
-  margin: 0 auto 5% auto;
-  padding: 1% 1% 1% 1%;
-  background-color: #e6fff3;
+  margin: 10px;
 }
 
 #wrapper {
-  width: 70%;
-  margin: 0 auto 5% auto;
-  padding: 1% 1% 1% 1%;
+  width: 850px;
+  height: 600px;
+  margin: 0 auto;
   background-color: #e6fff3;
+  overflow: hidden;
 }
 
 #canvas {
-  width: 70%;
-  margin: 0 auto 5% auto;
-  padding: 1% 1% 1% 1%;
+  width: 700px;
+  height: 500px;
+  margin: 30px;
   background-color: #e6fff3;
 }
 
