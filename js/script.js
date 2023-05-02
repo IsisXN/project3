@@ -25,9 +25,11 @@ function init() {
   
   
   var contentString = '<h2>Guadalajara</h2><p>This is one of the states in Mexico</p>'
+  
   var infowindow = new google.maps.InfoWindow({
     content: contentString,
   });
+  
   google.maps.event.addListener(marker, 'mouseover', function() {
     infowindow.open(myMap, marker);
   });
