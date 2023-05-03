@@ -62,6 +62,21 @@
   background-color: #99ffce;
 }
 
+@media screen and (max-width: 767px) {
+  #resume-outline {
+    width: 90%; 
+    margin: 5% auto; 
+  }
+  #main-navbar ul li {
+    display: block; 
+    float: none; 
+  }
+  #main-navbar ul li a {
+    padding: 10px;
+    font-size: 16px; 
+  }
+}
+
 #resume-template{
   width: 70%;
   margin: 0 auto 5% auto;
