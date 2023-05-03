@@ -1,6 +1,6 @@
 function init(){
   var el = document.getElementById('canvas');
-  var myLocation = new google.maps.LatLng(15.534637544573304, -89.95940777671223);
+  var myLocation = new google.maps.LatLng(20.682404735624612, -103.34024359954567);
   var mapOptions = {
     center: myLocation,
     zoom: 16,
@@ -17,13 +17,13 @@ function init(){
     map: myMap,
     animation: google.maps.Animation.DROP,
     icon: {
-      url: 'media/quetzal.png',
+      url: 'media/pic.png',
       scaledSize: new google.maps.Size(60, 60) 
     }
   });
 
 
-  var contentString = '<h2>Semuc Champey</h2><p>The national bird of Guatemala is the Quetzal</p>'
+  var contentString = '<h2>guadalajara</h2><p>State in mexico</p>'
 
   var infowindow = new google.maps.InfoWindow({
     content: contentString
