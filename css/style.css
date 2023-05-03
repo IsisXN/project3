@@ -1,16 +1,16 @@
-
 .center-text {
   text-align: center;
+}
+
+.border-bottom {
+  border-bottom: 1px solid black;
+  font-family: Blippo, fantasy;
 }
 .float-left {
   float: left;
 }
 .float-right {
   float: right;
-}
-.border-bottom {
-  border-bottom: 1px solid black;
-  font-family: Blippo, fantasy;
 }
 .clear {
   clear: both;
