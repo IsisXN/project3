@@ -17,8 +17,8 @@ function init(){
     map: myMap,
     animation: google.maps.Animation.DROP,
     icon: {
-      url: 'media/mexi.png',
-      scaledSize: new google.maps.Size(100, 100) 
+      url: 'media/pic.png',
+      scaledSize: new google.maps.Size(60, 60) 
     }
   });
 
